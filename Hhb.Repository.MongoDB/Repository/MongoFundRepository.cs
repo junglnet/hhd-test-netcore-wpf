@@ -120,7 +120,7 @@ namespace Hhb.Repository.MongoDB.Repository
 
             (await _collection.CountDocumentsAsync(s => s.Id == id.ToString())) != 0;
 
-        
+         
 
     }
 }
